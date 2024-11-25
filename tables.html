@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>/* General Reset */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3e5f5;
+            color: #4a148c;
+            text-align: center;
+        }
+        
+        /* Header Styling */
+        h1 {
+            color: #6a1b9a;
+            margin: 20px 0;
+        }
+        
+        /* Table Styling */
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 70%;
+            background-color: #f3e5f5;
+            color: #4a148c;
+            border: 1px solid #6a1b9a;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Table Header */
+        thead th {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 10px;
+            font-size: 18px;
+        }
+        
+        /* Table Rows */
+        tbody tr {
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        
+        tbody tr:nth-child(odd) {
+            background-color: #e1bee7;
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #ede7f6;
+        }
+        
+        tbody tr:hover {
+            background-color: #d1c4e9;
+        }
+        
+        /* Table Data */
+        td, th {
+            padding: 10px;
+            border: 1px solid #6a1b9a;
+            font-size: 16px;
+            border: 2px solid rgb(75, 7, 75);
+        }
+        
+        /* Add spacing to the table */
+        table {
+            margin: 20px auto;
+            border-spacing: 0;
+        }
+        </style>
+</head>
+
+<body>
+    <h1>Tables in HTML</h1>
+    <table>
+        <!-- head of the table -->
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>Death</th>
+            </tr>
+
+        </thead>
+        <!-- body of the table -->
+        <tbody>
+            <tr>
+                <td>Harry</td>
+                <td>12</td>
+                <td>1978</td>
+            </tr>
+            <tr>
+                <td>rohan</td>
+                <td>1</td>
+                <td>2004</td>
+            </tr>
+            <tr>
+                <td>kndapid</td>
+                <td>123</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td >THANK </td>
+                <td colspan="2">YOU </td>
+                
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
